@@ -1,0 +1,25 @@
+# === CapCut Pro Studio: Security & Build Exclusions ===
+
+# VS Artifacts
+.vs/
+out/
+build/
+*.user
+*.suo
+
+# Compiled Binaries (Never upload cracks to source)
+*.exe
+*.dll
+*.pdb
+/bin/
+/Release/
+
+# Logs & Sensitive Data
+*.log
+config.local.json
+/auth/
+.env
+
+# System Files
+Thumbs.db
+Desktop.ini
